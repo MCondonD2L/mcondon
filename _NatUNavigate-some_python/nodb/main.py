@@ -8,7 +8,7 @@ from requests.auth import HTTPBasicAuth
 
 logger = logging.getLogger(__name__)
 
-API_VERSION = '1.43'
+API_VERSION = '1.41'
 AUTH_SERVICE = 'https://auth.brightspace.com/'
 CONFIG_LOCATION = 'config.json'
 

@@ -1,7 +1,8 @@
 {
+    "auth_service": "https://auth.brightspace.com/",
     "bspace_url": "https://navigate.nu.edu/",
     "client_id": "44cba9ea-efb0-4521-a91b-9f4ecdcc8942",
     "client_secret": "IK73HpSsnarYjeWY9G1pxam_rX8oOaf9K4DvlhcuiYk",
     "extract_location": "../../../../../_BDS4Clients/_NU_Nav/",
-    "refresh_token": "rt.us-east-1.naW_TPfUFB-ZQnbZB6StkS5hMRItlcT47eJpOxcewfA"
+    "refresh_token": "rt.us-east-1.peMKb-Eaovi1qoptmPO_NA-oDSC_F5dCLXpAkSobJbI"
 }
