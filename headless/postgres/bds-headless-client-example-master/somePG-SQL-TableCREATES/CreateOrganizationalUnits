@@ -1,0 +1,17 @@
+CREATE TABLE OrganizationalUnits (
+	"OrgUnitId" bigint NOT NULL,
+	"Organization" varchar(100) NULL,
+	"Type" varchar(100) NULL,
+	"Name" varchar(256) NULL,
+	"Code" varchar(100) NULL,
+	"StartDate" timestamp(6) NULL,
+	"EndDate" timestamp(6) NULL,
+	"IsActive" boolean NULL,
+	"CreatedDate" timestamp(6) NULL,
+	"IsDeleted" boolean NULL,
+	"DeletedDate" timestamp(6) NULL,
+	"RecycledDate" timestamp(6) NULL,
+	"Version" bigint NULL,
+	"OrgUnitTypeId" int NULL,
+ CONSTRAINT "PK_OrganizationalUnits" PRIMARY KEY ("OrgUnitId")
+);
