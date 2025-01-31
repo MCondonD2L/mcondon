@@ -5,11 +5,21 @@
             "server": "localhost",
             "port": 5432,
             "driver": "PostgreSQL",
-            "name": "pg17",
+            "name": "pg17-postgres",
             "username": "postgres",
             "database": "postgres",
             "password": "postgres17",
             "connectionTimeout": 30
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "NUTest",
+            "database": "NUTestCSV",
+            "username": "postgres",
+            "password": "postgres17"
         }
     ]
 }
